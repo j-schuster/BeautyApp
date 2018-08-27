@@ -4,12 +4,17 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "yarn prettier --write '*.js'",
+    "format-code": "yarn run prettier && yarn run lint:fix"
   },
   "dependencies": {
     "react": "16.4.1",
     "react-native": "0.56.0",
     "react-native-elements": "^0.19.1",
+    "react-native-fast-image": "^5.0.3",
     "react-native-linear-gradient": "^2.4.0",
     "react-native-vector-icons": "^5.0.0",
     "react-navigation": "^2.11.2"

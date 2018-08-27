@@ -4239,6 +4239,10 @@ react-native-elements@^0.19.1:
     opencollective "^1.0.3"
     prop-types "^15.5.8"
 
+react-native-fast-image@^5.0.3:
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-fast-image/-/react-native-fast-image-5.0.3.tgz#cb53b70a904d908c2c531dcc3d4a77834c9e1c63"
+
 react-native-linear-gradient@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/react-native-linear-gradient/-/react-native-linear-gradient-2.4.0.tgz#51d8ea12bb72a59bede9edc87b694b16b64cf435"
